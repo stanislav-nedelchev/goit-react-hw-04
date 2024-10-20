@@ -4,7 +4,7 @@ axios.defaults.baseURL = 'https://api.unsplash.com/search/photos';
 axios.defaults.params = {
   client_id: 'jTYhCu1CVKwYUnTT5Semc_YK6oEoe1_WuenYa7SVNXs',
   orientation: 'landscape',
-  per_page: 15,
+  per_page: 20,
 };
 
 export const findImages = async (query, page) => {
